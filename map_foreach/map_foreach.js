@@ -7,7 +7,7 @@
 // })
 // console.log(arr2)
 
-var arr = [1,23,3]
+// var arr = [1,23,3]
 // var arr2 = []
 // arr.forEach((item)=>{
 //     console.log(typeof(item))
@@ -18,11 +18,15 @@ var arr = [1,23,3]
 // console.log(['1','2','3'].map(parseInt))
 
 var arr =[1,2,3]
+var arr2 = []
+arr.forEach(item=>{
+    arr2.push(item+1)
+})
+console.log(arr2)
+// console.log(arr.map(item=>{
+//    return item*2
+// })) //可以返回新数组[2,3,6]
 
-console.log(arr.map(item=>{
-   return item*2
-})) //可以返回新数组[2,3,6]
-
-console.log(arr.forEach(item=>{
-    return item*2
- })) //返回的是undefined
+// console.log(arr.forEach(item=>{
+//     return item*2
+//  })) //返回的是undefined
