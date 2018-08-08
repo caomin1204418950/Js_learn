@@ -9,6 +9,7 @@ console.log(n)
 
 // search()方法 就算没用正则，也可使用
 var s = 'ab c'
-var a = s.search("c");
+var a = s.search("C");//3
+// var a = s.search(/C/);//-1
 console.log(a)//3
 
